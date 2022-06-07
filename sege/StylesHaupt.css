@@ -1,0 +1,275 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 200px 210px 300px 300px 300px 300px 300px 300px 300px; 
+    gap: 10px 10px; 
+    grid-template-areas: 
+    "Header Header"
+    "Navigationbar Navigationbar"
+    "Themen Themen"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic"
+    "Pic Pic"
+    "Footer Footer";
+
+    background-color: rgb(185, 179, 179);
+
+}
+.Navigationbar{
+    grid-area: Navigationbar;
+    text-align: center;
+    font-size: xx-large;
+    background-color: gray;
+    border-radius: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+.HauptseiteHead{
+    position: sticky;
+    top: 0;
+    grid-area: Header;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 200px; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "Logo AboutUS"
+    ;
+    background-color: black;
+    color: white;
+    
+}
+
+.Logo{
+    grid-area: Logo;
+    border-radius: 15px;
+    padding-top: 45px;
+}
+.AboutUS{
+    grid-area: AboutUS;
+}
+button{
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center;
+    margin-block-end: auto;
+    height: 100%;
+    width: 100%;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.Footer{
+    grid-area: Footer;
+    background-color: black ;
+    color: white;
+    padding-left: 1.5em;
+    font-size: 1.5em;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+}
+
+.Themen{
+
+    grid-area: Themen;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 200px 200px 200px 200px; 
+    gap: 0px 0px; 
+    grid-template-areas:
+    "Natur Natur"
+    "Weltraum Weltraum"
+    "Fantasie Fantasie"
+    "Tiere Tiere";
+    font-size: 8em;
+    text-align: center;
+    padding-top: 65px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.Natur{
+    grid-area: Natur;
+}
+.Weltraum{
+    grid-area: Weltraum;
+}
+.Fantasie{
+    grid-area: Fantasie;
+}
+.Tiere{
+    grid-area: Tiere;
+}
+
+.Bilder{
+grid-area: Pic;
+display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px; 
+    gap: 0px 0px; 
+    background-color: rgb(48, 47, 47);
+    grid-template-areas:
+    "Pic1 Pic1"
+    "Pic1 Pic1"
+    "Pic2 Pic2"
+    "Pic2 Pic2"
+    "Pic3 Pic3"
+    "Pic3 Pic3"
+    "Pic4 Pic4"
+    "Pic4 Pic4"
+    "Pic5 Pic5"
+    "Pic5 Pic5"
+    "Pic6 Pic6"
+    "Pic6 Pic6"
+    
+    ;
+    border-radius: 20px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.ChoiceA{
+    grid-area: Pic1;
+    background-color: gray;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.ChoiceB{
+    grid-area: Pic2;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.ChoiceC{
+    grid-area: Pic3;
+    background-color: gray;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.ChoiceD{
+    grid-area: Pic4;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+
+.ChoiceE{
+    grid-area: Pic5;
+    background-color: gray;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+
+.ChoiceF{
+    grid-area: Pic6;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+
+@media screen and (min-width: 1250px){
+    body{
+        margin: 0px;
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 200px 210px 300px 300px 300px 6em; 
+        gap: 10px 10px; 
+        grid-template-areas: 
+        "Header Header Header Header Header"
+        "Navigationbar Navigationbar Navigationbar Navigationbar Navigationbar"
+        "Themen Themen Themen Themen Themen"
+        "Pic Pic Pic Pic Pic"
+        "Pic Pic Pic Pic Pic"
+        "Footer Footer Footer Footer Footer";
+    
+        background-color: rgb(185, 179, 179);
+    
+    }
+    .Bilder{
+        grid-area: Pic;
+        display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+            grid-template-rows: 300px 300px; 
+            gap: 0px 0px; 
+            background-color: rgb(48, 47, 47);
+            grid-template-areas:
+            "Pic1 Pic1 Pic2 Pic2 Pic3 Pic3"
+            "Pic4 Pic4 Pic5 Pic5 Pic6 Pic6"
+            ;
+            border-radius: 20px;
+        
+    }
+    .Themen{
+
+        grid-area: Themen;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ; 
+        grid-template-rows: 200px 200px 200px 200px; 
+        gap: 0px 0px; 
+        grid-template-areas:
+        "Natur Natur Natur Natur Natur"
+        "Weltraum Weltraum Weltraum Weltraum Weltraum"
+        "Fantasie Fantasie Fantasie Fantasie Fantasie"
+        "Tiere Tiere Tiere Tiere Tiere";
+        font-size: 8em;
+        text-align: center;
+        padding-top: 65px;
+        background-color: gray;
+        border-radius: 20px;
+    }
+    li {
+        float: left;
+        text-align: center;
+        padding-top: 77px;
+        padding-left: 175px;
+      }
+      .Footer{
+        grid-area: Footer;
+        background-color: black ;
+        color: white;
+        padding-left: 1.5em;
+        font-size: 1.5em;
+        padding-top: 1.4em;
+        padding-bottom: 1.4em;
+    }
+      
+}
