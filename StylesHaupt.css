@@ -234,7 +234,19 @@ ul {
 .ChoiceF:hover{
     opacity: 0.3;
 }
+.desktoplink {
+    display: none;
+}
+
 @media screen and (min-width: 1000px){
+	
+	.mobilelink {
+        display: none;
+    }
+
+    .desktoplink {
+        display: block;
+    }
     body{
         margin: 0px;
         display: grid; 
