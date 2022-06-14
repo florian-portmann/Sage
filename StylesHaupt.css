@@ -1,5 +1,6 @@
 *{
     font-family: 'Fredoka', sans-serif;
+    cursor: default;
 }
 
 
@@ -97,6 +98,7 @@ button{
     border: none;
     text-decoration: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 .Footer{
     grid-area: Footer;
