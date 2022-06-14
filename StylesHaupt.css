@@ -179,26 +179,35 @@ ul {
     background-color: gray;
     margin: 10px;
     border-radius: 20px;
-
+    transition: .5s ease;
 }
+
+.ChoiceA:hover{
+    opacity: 0.3;
+}
+
 .ChoiceB{
     grid-area: Pic2;
     margin: 10px;
     border-radius: 20px;
+    transition: .5s ease;
+}
 
+.ChoiceB:hover{
+    opacity: 0.3;
 }
 .ChoiceC{
     grid-area: Pic3;
     background-color: gray;
     margin: 10px;
     border-radius: 20px;
-
+    transition: .5s ease;
 }
 .ChoiceD{
     grid-area: Pic4;
     margin: 10px;
     border-radius: 20px;
-
+    transition: .5s ease;
 }
 
 .ChoiceE{
@@ -206,14 +215,14 @@ ul {
     background-color: gray;
     margin: 10px;
     border-radius: 20px;
-
+    transition: .5s ease;
 }
 
 .ChoiceF{
     grid-area: Pic6;
     margin: 10px;
     border-radius: 20px;
-
+    transition: .5s ease;
 }
 
 @media screen and (min-width: 1000px){
