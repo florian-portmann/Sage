@@ -41,9 +41,8 @@ body{
 }
 ul{
     list-style-type: none;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
+    margin: auto;
+    width: 50%;
     margin: 0px;
 }
 
