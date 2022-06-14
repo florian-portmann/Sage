@@ -272,6 +272,13 @@ ul {
         padding-top: 77px;
         padding-left: 175px;
       }
+    
+   Navigationbar{
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+    
+    }
       .Footer{
         grid-area: Footer;
         background-color: black ;
