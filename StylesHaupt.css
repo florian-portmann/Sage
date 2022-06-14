@@ -203,13 +203,16 @@ ul {
     border-radius: 20px;
     transition: .5s ease;
 }
+.ChoiceC:hover{
+    opacity: 0.3;
 .ChoiceD{
     grid-area: Pic4;
     margin: 10px;
     border-radius: 20px;
     transition: .5s ease;
 }
-
+.ChoiceD:hover{
+    opacity: 0.3;
 .ChoiceE{
     grid-area: Pic5;
     background-color: gray;
@@ -217,14 +220,16 @@ ul {
     border-radius: 20px;
     transition: .5s ease;
 }
-
+.ChoiceE:hover{
+    opacity: 0.3;
 .ChoiceF{
     grid-area: Pic6;
     margin: 10px;
     border-radius: 20px;
     transition: .5s ease;
 }
-
+.ChoiceF:hover{
+    opacity: 0.3;
 @media screen and (min-width: 1000px){
     body{
         margin: 0px;
