@@ -22,13 +22,13 @@
 }
 
  header{
-   position: sticky;
    top: 0;
     background-color: black;
     padding-left: 1%;
     padding-right: 100%;
     padding-top: 1%;
     padding-bottom: 1%
+    z-index 10;
  }
 
 .Logo{
@@ -89,6 +89,22 @@
     height: 15em;
     border-radius: 10px;
  }
+
+ .Picture#Igor{
+   filter: sepia(70%);
+ }
+
+.Picture#Florian{
+   filter: brightness(90%);
+}
+
+.Picture#Randon{
+   filter: grayscale(50%);
+}
+
+.Picture#Simon{
+   filter: blur(4px);
+}
 
  .Name
  {
