@@ -34,9 +34,6 @@ body{
 }
 .Navigationbar{
     grid-area: Navigationbar;
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em;
     text-align: center;
     font-size: xx-large;
     background-color: gray;
@@ -44,6 +41,9 @@ body{
 }
 ul{
     list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
     padding: 0px;
     margin: 0px;
 }
